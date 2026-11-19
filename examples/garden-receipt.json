@@ -1,0 +1,375 @@
+{
+  "schema": "lexipatch-receipt-v1",
+  "checked": true,
+  "project": {
+    "schema": "lexipatch-project-v1",
+    "title": "Garden words",
+    "wordText": "BLÜTE\nWALD\nWIESE\nGARTEN\nSONNE\nBÄUME",
+    "alphabetText": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ",
+    "rows": 12,
+    "cols": 12,
+    "mode": "eight",
+    "seed": 42,
+    "notes": "Original selection of common garden words. Review normalization, glyph coverage and incidental words before sharing."
+  },
+  "algorithm": "overlap-greedy-lcg-v1",
+  "grid": [
+    [
+      "E",
+      "K",
+      "D",
+      "L",
+      "A",
+      "W",
+      "B",
+      "V",
+      "J",
+      "G",
+      "N",
+      "Ö"
+    ],
+    [
+      "H",
+      "S",
+      "R",
+      "J",
+      "G",
+      "Q",
+      "I",
+      "L",
+      "Ä",
+      "A",
+      "U",
+      "Ö"
+    ],
+    [
+      "U",
+      "I",
+      "Q",
+      "E",
+      "I",
+      "W",
+      "Ö",
+      "E",
+      "Ü",
+      "R",
+      "T",
+      "O"
+    ],
+    [
+      "Ä",
+      "F",
+      "X",
+      "B",
+      "Y",
+      "I",
+      "Q",
+      "M",
+      "S",
+      "T",
+      "O",
+      "U"
+    ],
+    [
+      "L",
+      "C",
+      "F",
+      "C",
+      "K",
+      "Ü",
+      "P",
+      "U",
+      "Ü",
+      "E",
+      "E",
+      "Q"
+    ],
+    [
+      "E",
+      "W",
+      "B",
+      "Y",
+      "U",
+      "E",
+      "Z",
+      "Ä",
+      "Ä",
+      "N",
+      "R",
+      "P"
+    ],
+    [
+      "M",
+      "I",
+      "J",
+      "Ö",
+      "I",
+      "G",
+      "Z",
+      "B",
+      "E",
+      "N",
+      "V",
+      "A"
+    ],
+    [
+      "Y",
+      "I",
+      "R",
+      "B",
+      "U",
+      "A",
+      "V",
+      "Q",
+      "W",
+      "O",
+      "M",
+      "V"
+    ],
+    [
+      "D",
+      "U",
+      "H",
+      "M",
+      "E",
+      "D",
+      "Ä",
+      "E",
+      "G",
+      "S",
+      "W",
+      "Y"
+    ],
+    [
+      "U",
+      "W",
+      "T",
+      "H",
+      "W",
+      "F",
+      "Ü",
+      "L",
+      "D",
+      "G",
+      "Z",
+      "Ö"
+    ],
+    [
+      "J",
+      "L",
+      "A",
+      "Ü",
+      "Ö",
+      "Ü",
+      "L",
+      "W",
+      "L",
+      "I",
+      "I",
+      "L"
+    ],
+    [
+      "D",
+      "T",
+      "E",
+      "O",
+      "R",
+      "T",
+      "J",
+      "Q",
+      "E",
+      "Q",
+      "Y",
+      "U"
+    ]
+  ],
+  "placements": [
+    {
+      "id": 1,
+      "word": "BLÜTE",
+      "row": 0,
+      "col": 6,
+      "dr": 1,
+      "dc": 1
+    },
+    {
+      "id": 2,
+      "word": "WALD",
+      "row": 0,
+      "col": 5,
+      "dr": 0,
+      "dc": -1
+    },
+    {
+      "id": 3,
+      "word": "WIESE",
+      "row": 0,
+      "col": 5,
+      "dr": 1,
+      "dc": 1
+    },
+    {
+      "id": 4,
+      "word": "GARTEN",
+      "row": 0,
+      "col": 9,
+      "dr": 1,
+      "dc": 0
+    },
+    {
+      "id": 5,
+      "word": "SONNE",
+      "row": 8,
+      "col": 9,
+      "dr": -1,
+      "dc": 0
+    },
+    {
+      "id": 6,
+      "word": "BÄUME",
+      "row": 6,
+      "col": 7,
+      "dr": -1,
+      "dc": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "original": "BLÜTE",
+      "word": "BLÜTE",
+      "startRow": 1,
+      "startCol": 7,
+      "endRow": 5,
+      "endCol": 11,
+      "dr": 1,
+      "dc": 1,
+      "occurrences": [
+        {
+          "row": 0,
+          "col": 6,
+          "dr": 1,
+          "dc": 1,
+          "key": "6:58"
+        }
+      ],
+      "extraOccurrences": 0
+    },
+    {
+      "id": 2,
+      "original": "WALD",
+      "word": "WALD",
+      "startRow": 1,
+      "startCol": 6,
+      "endRow": 1,
+      "endCol": 3,
+      "dr": 0,
+      "dc": -1,
+      "occurrences": [
+        {
+          "row": 0,
+          "col": 5,
+          "dr": 0,
+          "dc": -1,
+          "key": "2:5"
+        }
+      ],
+      "extraOccurrences": 0
+    },
+    {
+      "id": 3,
+      "original": "WIESE",
+      "word": "WIESE",
+      "startRow": 1,
+      "startCol": 6,
+      "endRow": 5,
+      "endCol": 10,
+      "dr": 1,
+      "dc": 1,
+      "occurrences": [
+        {
+          "row": 0,
+          "col": 5,
+          "dr": 1,
+          "dc": 1,
+          "key": "5:57"
+        }
+      ],
+      "extraOccurrences": 0
+    },
+    {
+      "id": 4,
+      "original": "GARTEN",
+      "word": "GARTEN",
+      "startRow": 1,
+      "startCol": 10,
+      "endRow": 6,
+      "endCol": 10,
+      "dr": 1,
+      "dc": 0,
+      "occurrences": [
+        {
+          "row": 0,
+          "col": 9,
+          "dr": 1,
+          "dc": 0,
+          "key": "9:69"
+        }
+      ],
+      "extraOccurrences": 0
+    },
+    {
+      "id": 5,
+      "original": "SONNE",
+      "word": "SONNE",
+      "startRow": 9,
+      "startCol": 10,
+      "endRow": 5,
+      "endCol": 10,
+      "dr": -1,
+      "dc": 0,
+      "occurrences": [
+        {
+          "row": 8,
+          "col": 9,
+          "dr": -1,
+          "dc": 0,
+          "key": "57:105"
+        }
+      ],
+      "extraOccurrences": 0
+    },
+    {
+      "id": 6,
+      "original": "BÄUME",
+      "word": "BÄUME",
+      "startRow": 7,
+      "startCol": 8,
+      "endRow": 3,
+      "endCol": 8,
+      "dr": -1,
+      "dc": 0,
+      "occurrences": [
+        {
+          "row": 6,
+          "col": 7,
+          "dr": -1,
+          "dc": 0,
+          "key": "31:79"
+        }
+      ],
+      "extraOccurrences": 0
+    }
+  ],
+  "normalizedAlphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ",
+  "stats": {
+    "words": 6,
+    "rows": 12,
+    "cols": 12,
+    "wordCells": 24,
+    "fillerCells": 120,
+    "extraOccurrences": 0,
+    "attempts": 1,
+    "candidateChecks": 6912
+  }
+}
