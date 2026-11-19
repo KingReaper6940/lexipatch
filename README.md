@@ -2,6 +2,8 @@
 
 Your letters. Your puzzle.
 
+**[Open Lexipatch](https://lexipatch.vercel.app)**
+
 Lexipatch makes repeatable word-search worksheets from your own vocabulary and filler alphabet. Keep all listed words, review every placement, and download separate puzzle and answer files.
 
 ![Actual generated puzzle SVG, not an application screenshot](examples/garden-puzzle.svg)
